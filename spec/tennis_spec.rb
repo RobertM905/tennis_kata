@@ -6,6 +6,7 @@ class Tennis
         @scores = ["Love", "15", "30", "40"]
     end
 
+
     def scored(player= :player_one)
         if player == :player_two
             @p2_counter += 1
